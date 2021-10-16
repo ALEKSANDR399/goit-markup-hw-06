@@ -382,7 +382,7 @@
             <div class="footer-social">
                 <div class="title-footer-social"><h4>ПРИСОЕДЕНЯЙТЕСЬ</h4>
                 </div>
-                <ul class="social-personal social-list list">
+                <ul class="social-personal social-footer-list list">
                     <li class="social-personal-list social-li">
                         <a href="" class="social-footer-link link">
                             <svg class="social-footer-icons">
@@ -417,9 +417,27 @@
                     </li>
                 </ul>
             </div>
+            <div class="form">
+                <div class="title-form"><h4 >ПОДПИШИСЬ НА РАССЫЛКУ</h4></div>
+                <form action="#" class="footer-form">
+                    <div class="form-email">
+                        <label class="footer-label" for="email-input"></label>
+                            <input type="email" name="email" placeholder="E-mail" class="footer-input" id="email-input" />
+                            
+                    </div>
+                    <div class="form-button">
+                            <button type="submit" class="button-form">Подписаться
+                                <svg class="form-footer-icons">
+                                    <use href="./img/icons.svg#icon-telegram" width="24" height="24">
+                                    </use>
+                                </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
-    <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidde" data-modal>
         <div class="modal" data-modal>
             <button type="button" class="btn-close" data-modal-close>    
                     <svg class="icon-close">
@@ -427,9 +445,13 @@
                          </use>
                     </svg>
             </button>
+            <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+            <form action="#" class="modal-form">
+                
+            </form>
         </div>
     </div>
-    <script src="./js/modal.js">
+    <!-- <script src="./js/modal.js"> -->
     </script>
 </body>
 </html>
