@@ -436,7 +436,7 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop is-hidde" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal" data-modal>
             <button type="button" class="btn-close" data-modal-close>    
                     <svg class="icon-close">
@@ -477,18 +477,18 @@
                     <label for="user-coments" class="textarea-title">Комментарий</label>
                     <textarea class="modal-textarea-input" name="user-coments" id="user-coments"placeholder="Введите текст"></textarea>
                 </div>
-                    <input type="checkbox" name="agreement-checkbox" id="agreement-checkbox" class="input-agreement">
-                    <label for="user-agreement" class="agreement-checkbox"><span>
-                        <!-- <svg class="icon-agreement">
-                            <use href="./img/icons.svg#icon-border" width="16" height="15"></use>
-                        </svg> -->
+                    <input type="checkbox" name="agreement-checkbox" id="agreement-checkbox" class="input-agreement visually-hidden">
+                    <label for="agreement-checkbox" class="agreement-checkbox"><span>
+                        <svg class="icon-agreement">
+                            <use href="./img/icons.svg#icon-Vector" width="11" height="8"></use>
+                        </svg>
                     </span> Соглашаюсь с рассылкой и принимаю <a href=""
-                            class="agreement-link link"> Условия договора</a></label>
+                            class="agreement-link "> Условия договора</a></label>
                 <button class="button-agreement-modal" type="submit">Отправить</button>
             </form>
         </div>
     </div>
-    <!-- <script src="./js/modal.js"> -->
+    <script src="./js/modal.js">
     </script>
 </body>
 </html>
